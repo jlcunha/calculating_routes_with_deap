@@ -1,5 +1,5 @@
 # Calculating Routes with Deap
-![alt text](img/best_route.png)
+![alt text](best_route.png)
 
 **Obs:** Este projeto tem fins educacionais.
 
@@ -20,12 +20,12 @@ Um dos problemas que todos os restaurantes enfrentam é de manter o melhor sabor
 ## 2 - Solution Strategy ( Estratégia de Solução )
 Os restaurantes estão localizados em alguns Shoppings da Grande Vitória, para calcular a melhor rota possível precisaremos das distancias entre os Shoppings. Usando o Google maps obteremos as distancias entre os restaurantes, e utilizando o Deap(algoritmo evolutivo) calcularemos a menor rota.
 
-![alt text](img/1route.png)
+![alt text](1route.png)
 
 
 ### 2.1 - Data Description ( Descrição dos dados )
 Os dados coletados pelo Google maps:
-![alt text](img/data.png)
+![alt text](data.png)
 
 Observando as distâncias entre as lojas é possível perceber que sair do Shopping “A” para o Shopping “B” é diferente de sair do “B” para o “A”. Por exemplo:
 
@@ -45,10 +45,10 @@ Usando o Deap buscamos encontrar o indivíduo com a melhor rota, que nesse caso 
 Para este projeto foram utilizadas 50 gerações. E o resultado para a melhor rota:
 
 
-![alt text](img/hof.png)
+![alt text](hof.png)
 
 A melhor rota:
-![alt text](img/best_route.png)
+![alt text](best_route.png)
 
 
 Todos os códigos e visualizações deste projeto podem ser seguidos neste [Notebook](deap.ipynb).
