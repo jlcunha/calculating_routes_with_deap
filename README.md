@@ -25,6 +25,7 @@ Os restaurantes estão localizados em alguns Shoppings da Grande Vitória, para 
 
 ### 2.1 - Data Description ( Descrição dos dados )
 Os dados coletados pelo Google maps:
+
 ![alt text](data.png)
 
 Observando as distâncias entre as lojas é possível perceber que sair do Shopping “A” para o Shopping “B” é diferente de sair do “B” para o “A”. Por exemplo:
@@ -51,7 +52,7 @@ A melhor rota:
 ![alt text](best_route.png)
 
 
-Todos os códigos e visualizações deste projeto podem ser seguidos neste [Notebook](deap.ipynb).
+Todos os códigos e visualizações deste projeto podem ser seguidos neste [Notebook](https://github.com/jlcunha/calculating_routes_with_deap/blob/main/Deap.ipynb).
 ## 3 - Conclusions ( Conclusões )
 * O Deap é um algoritmo muito interessante, ele resolve diversos tipos de problemas e com muita eficiência. O que mais me chamou atenção é que ele é ótimo para encontrar os melhores hiperparâmetros em modelos de ML.
 
